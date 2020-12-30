@@ -1,4 +1,4 @@
-baseURL = "https://PODW.github.io.git"
+baseURL = "https://PODW.github.io"
 title = "PODW"
 
 theme = "fuji"
