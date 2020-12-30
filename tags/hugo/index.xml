@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on PODW</title>
+    <link>http://www.example.com/tags/hugo/</link>
+    <description>Recent content in Hugo on PODW</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-hant</language>
+    <lastBuildDate>Tue, 29 Dec 2020 23:57:35 +0800</lastBuildDate><atom:link href="http://www.example.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo 學習日誌01</title>
+      <link>http://www.example.com/post/learn_hugo_01/</link>
+      <pubDate>Tue, 29 Dec 2020 23:57:35 +0800</pubDate>
+      
+      <guid>http://www.example.com/post/learn_hugo_01/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

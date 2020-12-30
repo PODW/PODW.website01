@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>雜談 on PODW</title>
+    <link>http://www.example.com/tags/%E9%9B%9C%E8%AB%87/</link>
+    <description>Recent content in 雜談 on PODW</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-hant</language>
+    <lastBuildDate>Sun, 27 Dec 2020 20:09:35 +0800</lastBuildDate><atom:link href="http://www.example.com/tags/%E9%9B%9C%E8%AB%87/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第一篇文章</title>
+      <link>http://www.example.com/post/first_post/</link>
+      <pubDate>Sun, 27 Dec 2020 20:09:35 +0800</pubDate>
+      
+      <guid>http://www.example.com/post/first_post/</guid>
+      <description>&lt;p&gt;Markdown的網頁文字範例&lt;/p&gt;
+主要用來測試用的&lt;/p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
