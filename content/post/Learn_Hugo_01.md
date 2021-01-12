@@ -55,7 +55,7 @@ tags = ["Hugo","網站架設"]
 將裡面的檔案複製下來，回到 **(Name)** 的根目錄將它們貼上<br>
 理論上這樣網站就已經有一個雛型了<br>
 這時在 **(Name)** 的根目錄開啟 **Windows PowerShell** <br>
-執行指令`hugo servver`後，你就可以在 [**http://localhost:1313/**](http://localhost:1313/)看到目前在本機運行的網站
+執行指令`hugo server`後，你就可以在 [**http://localhost:1313/**](http://localhost:1313/)看到目前在本機運行的網站
 
 ![Hugo server](/github.io/image/Learn_Hugo/CreateNewSite04.png)
 #### 可能遇到的問題
@@ -67,5 +67,35 @@ tags = ["Hugo","網站架設"]
 -    因為每個主題都有不同的格式，所以可能還有其他要求才能執行網站，下載主題前可以先看主題下方的描述或解壓縮完的ReadMe的檔案，通常都會有作者的提示怎麼使用他的主題
 [^3]:簡單來說就是儲存紀錄各種程式碼和檔案的網站，建議沒有帳戶可以去 [_**GitHub**_](https://github.com/) 註冊，方便管理你之後網站的檔案，同時也能讓你的網站上線。
 ## (三)創建文章
-hugo new post/文章標題.md -> 創建一個新的文章</p>
 
+> 確認網站可以運作後，接下就是開始改造這個網站<br>
+> 但要開始改造網站，你就需要一個文字編輯器<br>
+> 而網路上有很多不同的文字編輯器，基本上只要能正常開啟<cite>`.md`[^4]</cite> 檔的都可以<br>
+> 我個人使用的是 **Visual studio code** 這個編輯器<br>
+> 會選用這個編輯器的原因是它可以在編輯檔案時呼叫 **Windows PowerShell**，同時也有許多模組可以使用 <br>
+> 這樣可以不用一直切換視窗去下指令，增加編輯效率<br>
+> 你可以到 [_**Visual studio code 官網**_](https://code.visualstudio.com/) 去下載<br>
+> 安裝完打開後應該會類似下圖
+
+![Visual studio code Home](/github.io/image/Learn_Hugo/CreateNewContent00.png)
+>如果你不習慣用英文介面，**Visual studio code** 有繁體中文的模組<br>
+照著下圖操作你就會看到繁體中文的模組，點擊安裝後 **Visual studio code** 就會變成繁體介面了<br>
+
+![Chinese module](/github.io/image/Learn_Hugo/CreateNewContent01.png)
+>接下來才是重點，為了編輯 **Hugo** 產生文章跟網頁設定<br>
+請安裝下面圖示的模組，為了編輯`.md`跟`.toml`檔時能更好閱讀建議安裝
+
+![Markdown module](/github.io/image/Learn_Hugo/CreateNewContent02.png)
+![Toml module](/github.io/image/Learn_Hugo/CreateNewContent03.png)
+>做完上述動作後，我們的工作環境就準備好了<br>
+接下來就是用 **Visual studio code** 開啟之前創建的 **(Name)** 資料夾<br>
+你可以點選上方的`終端機`，也可以用快捷鍵<kbd><kbd>CTRL</kbd>+<kbd>~</kbd></kbd>來呼叫 **Windows PowerShell**<br>
+先執行 `hugo server` 來讓網站運行<br>
+> 再來執行指令 `hugo new post/(Name2).md`，**Name2** 為你的文章標題<br>
+執行完後你會發現你的網站多了一篇空白文章，而檔案位置就在 post 資料夾裡<br>
+而裡面的其他檔案就是其它文章，你可以參考範例看是怎麼寫的並跟著改寫<br>
+我的第一篇文章也有 **Markdown** 的一些用法<br>
+只要不用<kbd><kbd>CTRL</kbd>+<kbd>C</kbd></kbd>來中止網站，你對檔案的的改動就會直接反應在網站上<br>
+你可以一邊開著網頁一邊修改你的文章，查看是否有如你預期更改文章<br>
+
+[^4]:是一種叫 **Markdown** 格式撰寫的文件檔，詳情請看 [維基](https://zh.wikipedia.org/wiki/Markdown)

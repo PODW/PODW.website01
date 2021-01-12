@@ -137,7 +137,7 @@ paginate = 10
 
   [[menu.link]]
     name = "GitHub"
-    url = "https://github.com/PODW"
+    url = "https://github.com/PODW/myblog"
     weight = 1
 
 
