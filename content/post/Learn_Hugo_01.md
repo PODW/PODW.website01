@@ -1,7 +1,7 @@
 +++
 title = "Hugo 學習日誌01"
 date = 2020-12-29T23:57:35+08:00
-description = ""
+description = "如何用Hugo產生網站"
 tags = ["Hugo","網站架設"]
 +++
 
